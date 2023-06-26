@@ -43,7 +43,6 @@ div.background{
     transform: rotateX(90deg);
 }
 .image:hover div.background{
-    transition-delay: 50ms;
     transition-duration: 50ms;
     transform: rotateX(0deg);
 }
