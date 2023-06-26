@@ -1,0 +1,76 @@
+body{
+    background-color:cadetblue;
+    padding-bottom: 10px;
+}
+header{
+    margin: 2%;
+    padding-left: 2%;
+    background-color:cornflowerblue;
+    border-radius: 2%;
+    box-shadow: 2px 5px 2px cyan;
+}
+th{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+img.icon{
+    vertical-align: middle;
+    display: grid;
+    margin-left: auto;
+    margin-right: 0%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+}
+img.profile{
+    margin-left: -30px;
+    position: relative;
+    vertical-align: bottom;
+    margin-right: auto;
+}
+.middle_orientation{
+    margin-left: 30px;
+    text-align: center;
+}
+td.image{
+    width: 500px;
+    height: 500px;
+    display:contents;
+    border: 1px solid black;
+}
+div.background{
+    transform: rotateX(90deg);
+}
+.image:hover div.background{
+    transition-delay: 50ms;
+    transition-duration: 1s;
+    transform: rotateX(0deg);
+}
+img.background{
+    position:absolute;
+    vertical-align: bottom;
+}
+div.about_me{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+div.horizontal_scroll{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow-x:auto;
+    width: 100%;
+    text-align: center;
+}
+div.horizontal_scroll img{
+    padding: 10px;
+    width: 250px;
+}
+div.professional_content{
+    padding-left: 30px;
+}
+li{
+    list-style:inside;
+}
