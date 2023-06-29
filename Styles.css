@@ -68,7 +68,7 @@ div.horizontal_scroll img{
     width: 250px;
     transition: transform .2s;
 }
-div.horizontal_scroll img :hover{
+.hehe:hover{
     transform: scale(1.2);
 }
 div.professional_content{
