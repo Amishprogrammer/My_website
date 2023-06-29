@@ -69,7 +69,6 @@ div.horizontal_scroll img{
     transition: transform .2s;
 }
 .hehe:hover{
-    transform: scale(1.2);
 }
 div.professional_content{
     padding-left: 30px;
