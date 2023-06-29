@@ -66,10 +66,10 @@ div.horizontal_scroll{
 div.horizontal_scroll img{
     padding: 10px;
     width: 250px;
+    transition: transform .2s;
 }
 div.horizontal_scroll img :hover{
     transform: scale(1.2);
-    transition-duration: .2s;
 }
 div.professional_content{
     padding-left: 30px;
